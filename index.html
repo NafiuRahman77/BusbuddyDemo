@@ -4,10 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Demonstration of Busbuddy"
-    />
+    <meta name="description" content="Demonstration of Busbuddy" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <meta name="author" content="Alexandre Sanlim" />
 
@@ -23,6 +20,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
 
     <title>BusBuddy</title>
@@ -113,7 +114,47 @@
   <body class="bg-light">
     <div class="hero-section">
       <h1 class="hero-heading">BusBuddy</h1>
-      <p class="hero-subheading">Reliable companion for bus travel for <span id="typed"></span></p>
+      <p class="hero-subheading">
+        Reliable companion for bus travel for <span id="typed"></span>
+      </p>
+    </div>
+    <!-- What is our project -->
+    <div class="my-3 p-3 rounded">
+      <h1
+        class="pb-2 mb-0 text-white text-center mx-auto"
+        style="margin-top: 10px"
+      >
+        About BusBuddy
+      </h1>
+      <div style="height: 50px"></div>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3">
+            <img
+              src="src/logo.png"
+              class="img-fluid rounded"
+              style="max-width: 60%; height: auto; margin-bottom: 30px"
+            />
+          </div>
+          <div class="col-lg-9">
+            <figcaption class="figure-caption" style="color: #ffffff">
+              <p>
+                BusBuddy is a mobile application that provides a reliable
+                companion for bus travel. It is designed to make the bus travel
+                experience more convenient and efficient for students, teachers,
+                and staff. The application offers a range of features including
+                a profile-based system, QR-based ticket system, automated ticket
+                scanning, route time calendar, one-tap bus trip management for
+                drivers, real-time bus tracking, feedback system, and
+                requisition system. Whether planning a daily commute or managing
+                large-scale transport logistics, BusBuddy ensures coordination.
+                With intuitive design and robust functionality, it elevates the
+                way users interact with public transportation.
+              </p>
+            </figcaption>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- stacks-->
     <div class="my-3 p-3 rounded">
@@ -127,7 +168,10 @@
       <!-- Spacer div -->
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-3 d-flex justify-content-center" style="margin-bottom: 30px;">
+          <div
+            class="col-lg-3 d-flex justify-content-center"
+            style="margin-bottom: 30px"
+          >
             <img
               src="src/nodejs.png"
               class="img-fluid"
@@ -135,7 +179,10 @@
               style="max-width: 250px; height: 60px"
             />
           </div>
-          <div class="col-lg-3 d-flex justify-content-center" style="margin-bottom: 30px;">
+          <div
+            class="col-lg-3 d-flex justify-content-center"
+            style="margin-bottom: 30px"
+          >
             <img
               src="src/flutter.png"
               class="img-fluid"
@@ -143,7 +190,10 @@
               style="max-width: 150px; height: 100px"
             />
           </div>
-          <div class="col-lg-3 d-flex justify-content-center" style="margin-bottom: 30px;">
+          <div
+            class="col-lg-3 d-flex justify-content-center"
+            style="margin-bottom: 30px"
+          >
             <img
               src="src/pg.png"
               class="img-fluid"
@@ -157,7 +207,12 @@
 
     <!-- Screenshots -->
     <div class="my-3 p-3 rounded">
-      <h1 class="pb-2 mb-0 text-white text-center mx-auto"  style="margin-top: 10px"> Demonstration  </h1 >
+      <h1
+        class="pb-2 mb-0 text-white text-center mx-auto"
+        style="margin-top: 10px"
+      >
+        Demonstration
+      </h1>
       <div style="height: 50px"></div>
       <div
         id="myCarousel"
@@ -232,7 +287,8 @@
                   />
                 </div>
                 <!-- Caption beside image -->
-                <div class="col-lg-6">
+
+                <div class="col-lg-6" style="margin-top: 20px">
                   <figcaption class="figure-caption" style="color: #ffffff">
                     <h5>Profile Based System</h5>
                     <p>
@@ -255,7 +311,7 @@
                     style="max-width: 100%; height: auto; max-height: 500px"
                   />
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="margin-top: 20px">
                   <figcaption class="figure-caption" style="color: #ffffff">
                     <h5>Qr based ticket system</h5>
                     <p>
@@ -280,7 +336,7 @@
                     style="max-width: 100%; height: auto; max-height: 500px"
                   />
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="margin-top: 20px">
                   <figcaption class="figure-caption" style="color: #ffffff">
                     <h5>Automated Ticket Scanning</h5>
                     <p>
@@ -304,7 +360,7 @@
                     style="max-width: 100%; height: auto; max-height: 500px"
                   />
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="margin-top: 20px">
                   <figcaption class="figure-caption" style="color: #ffffff">
                     <h5>Route Time Calendar</h5>
                     <p>
@@ -328,7 +384,7 @@
                     style="max-width: 100%; height: auto; max-height: 500px"
                   />
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="margin-top: 20px">
                   <figcaption class="figure-caption" style="color: #ffffff">
                     <h5>One Tap Bus Trip Management for drivers</h5>
                     <p>Drivers can start and end the trip with just one tap.</p>
@@ -349,7 +405,7 @@
                     style="max-width: 100%; height: auto; max-height: 500px"
                   />
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="margin-top: 20px">
                   <figcaption class="figure-caption" style="color: #ffffff">
                     <h5>Real Time Bus Tracking</h5>
                     <p>
@@ -374,7 +430,7 @@
                     style="max-width: 100%; height: auto; max-height: 500px"
                   />
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="margin-top: 20px">
                   <figcaption class="figure-caption" style="color: #ffffff">
                     <h5>Feedback System</h5>
                     <p>
@@ -399,7 +455,7 @@
                     style="max-width: 100%; height: auto; max-height: 500px"
                   />
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="margin-top: 20px">
                   <figcaption class="figure-caption" style="color: #ffffff">
                     <h5>Requisition System</h5>
                     <p>
@@ -435,53 +491,127 @@
         </button>
       </div>
     </div>
-    <!-- about section -->
+
+    <!-- About Developers Section -->
     <div class="my-3 p-3 rounded">
-      <h1 class="pb-2 mb-0 text-white text-center mx-auto" style="margin-top: 10px">About</h1>
+      <h1
+        class="pb-2 mb-0 text-white text-center mx-auto"
+        style="margin-top: 10px"
+      >
+        Developers
+      </h1>
       <div style="height: 50px"></div>
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-6">
-            <p class="text-white">
-              BusBuddy is a bus management system that provides a reliable
-              companion for bus travel for students, teachers, and staffs. It
-              provides a profile-based system for each user. Students can buy
-              tickets which can be accessed by QR code and scanned by the bus
-              driver. Also, there is a feature to access the ticket offline. Bus
-              drivers can scan the QR code of the ticket and the system will
-              automatically verify the ticket. Users can see the scheduled route
-              on a map based on selective filtering of the bus route and time.
-              Drivers can start and end the trip with just one tap. Users can
-              track the bus in real-time on the map based on a specific bus
-              route. Also, real-time notification is sent to the users when the
-              bus is near to the bus stop. Users can give feedback to the bus
-              driver and the bus service. Also, responses to the feedback from
-              authorities can be seen by the user. Teachers can request for bus
-              service for their students. Also, the request can be approved or
-              rejected by the authorities, which can be seen by the teacher.
-            </p>
-          </div>
-          <div class="col-lg-6">
+        <div class="row justify-content-around">
+          <!-- Developer 1 -->
+          <div
+            class="col-lg-3 d-flex flex-column align-items-center"
+            style="margin-bottom: 30px"
+          >
             <img
-              src="src/about.jpg"
-              class="img-fluid rounded"
-              style="max-width: 100%; height: auto; max-height: 500px"
+              src="src/jll.jpg"
+              class="img-fluid rounded-circle"
+              alt="Wasif Jalal Galib"
+              style="max-width: 150px; height: 150px"
             />
+            <figcaption
+              class="figure-caption text-center"
+              style="color: #ffffff; margin-top: 15px"
+            >
+              <h5>Wasif Jalal Galib</h5>
+              <a href="https://github.com/wjalal" target="_blank">
+                <i
+                  class="fab fa-github"
+                  style="font-size: 30px; color: white"
+                ></i>
+              </a>
+            </figcaption>
+          </div>
+
+          <!-- Developer 2 -->
+          <div
+            class="col-lg-3 d-flex flex-column align-items-center"
+            style="margin-bottom: 30px"
+          >
+            <img
+              src="src/nfu.jpg"
+              class="img-fluid rounded-circle"
+              alt="Md Nafiu Rahman"
+              style="max-width: 150px; height: 150px"
+            />
+            <figcaption
+              class="figure-caption text-center"
+              style="color: #ffffff; margin-top: 15px"
+            >
+              <h5>Md Nafiu Rahman</h5>
+              <a href="https://github.com/100100guy" target="_blank">
+                <i
+                  class="fab fa-github"
+                  style="font-size: 30px; color: white"
+                ></i>
+              </a>
+            </figcaption>
+          </div>
+
+          <!-- Developer 3 -->
+          <div
+            class="col-lg-3 d-flex flex-column align-items-center"
+            style="margin-bottom: 30px"
+          >
+            <img
+              src="src/sjb.jpg"
+              class="img-fluid rounded-circle"
+              alt="Md Roqunuzzaman Sojib"
+              style="max-width: 150px; height: 150px"
+            />
+            <figcaption
+              class="figure-caption text-center"
+              style="color: #ffffff; margin-top: 15px"
+            >
+              <h5>Md Roqunuzzaman Sojib</h5>
+              <a
+                href="https://github.com/https://github.com/Sojib-zaman"
+                target="_blank"
+              >
+                <i
+                  class="fab fa-github"
+                  style="font-size: 30px; color: white"
+                ></i>
+              </a>
+            </figcaption>
           </div>
         </div>
       </div>
+    </div>
+
+
+    <!-- Deployment Status Section -->
+<div class="my-5 p-4 rounded" >
+  <h1 class="pb-2 mb-3 text-center" style="color: #ffffff;">Deployment Status</h1>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <p style="font-size: 18px; color: #ffffff;">
+          We are excited to announce that <strong>BusBuddy</strong> is currently under deployment at the Bangladesh University of Engineering and Technology (BUET). The application is being integrated into the campus transportation system, providing students, teachers, and staff with an enhanced bus travel experience.
+        </p>
+        <p style="font-size: 18px; color: #ffffff;">
+          Stay tuned for updates as we finalize the rollout to ensure a smooth and efficient launch for all users.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <footer class="text-center text-white py-3">
       <p>&copy; 2024 Busbuddy. All rights reserved.</p>
-      <a href="https://github.com/100100guy/BusBuddy-Client-End" target="_blank">
-        <img
-          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-          alt="GitHub"
-          style="width: 30px; height: 30px"
-        />
+      <a
+        href="https://github.com/100100guy/BusBuddy-Client-End"
+        target="_blank"
+      >
+        <i class="fab fa-github" style="font-size: 30px; color: white"></i>
       </a>
     </footer>
-    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"

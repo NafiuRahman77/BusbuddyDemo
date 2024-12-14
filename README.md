@@ -38,8 +38,6 @@ BusBuddy is a mobile application designed to provide a convenient and efficient 
 - **Run the App:** `flutter run`
 
 ## Application demonstration
-### Profile based system
-![Profile Screenshot](src/1.jpg)
 
 ### Profile based system
 ![Profile Screenshot](src/1.jpg)

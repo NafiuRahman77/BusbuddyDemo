@@ -1,6 +1,6 @@
 # BusBuddy
 
-**BusBuddy** is a smart mobile application designed to provide a seamless and efficient bus service experience for students, teachers, and bus staff of **Bangladesh University of Engineering and Technology (BUET)**. Tailored to meet the unique transportation needs of each user group, the app offers a wide range of features.
+**BusBuddy** is a smart mobile application designed to provide an efficient bus service experience for students, teachers, and bus staff of **Bangladesh University of Engineering and Technology (BUET)**. This application was developed to meet the unique transportation needs of each user group, providing a long range of features.
 
 ## Features
 
@@ -77,31 +77,31 @@
 ## Application Demonstration
 
 ### Profile-based System
-![Profile Screenshot](src/1.jpg)
+<img src="src/1.jpg" alt="Profile Screenshot" width="300">
 
 ### QR-based Ticket System
-![QR Screenshot](src/qr.jpg)
+<img src="src/qr.jpg" alt="QR Screenshot" width="300">
 
 ### Automated Ticket Scanning
-![Scan Screenshot](src/scan.jpg)
+<img src="src/scan.jpg" alt="Scan Screenshot" width="300">
 
 ### Ticket Viewing and Buying System
-![Ticket Screenshot](src/ticket.jpg)
+<img src="src/ticket.jpg" alt="Ticket Screenshot" width="300">
 
 ### Route-Time Calendar
-![RT Calendar Screenshot](src/routetimecalendar.jpg)
+<img src="src/routetimecalendar.jpg" alt="RT Calendar Screenshot" width="300">
 
 ### Trip Management
-![Trip Screenshot](src/starttrip.jpg)
+<img src="src/starttrip.jpg" alt="Trip Screenshot" width="300">
 
 ### Real-time Bus Tracking
-![Tracking Screenshot](src/tracking.jpg)
+<img src="src/tracking.jpg" alt="Tracking Screenshot" width="300">
 
 ### Feedback System
-![Feedback Screenshot](src/feedback.jpg)
+<img src="src/feedback.jpg" alt="Feedback Screenshot" width="300">
 
 ### Requisition System
-![Requisition Screenshot](src/requisition.jpg)
+<img src="src/requisition.jpg" alt="Requisition Screenshot" width="300">
 
 ## Deployment Status
 

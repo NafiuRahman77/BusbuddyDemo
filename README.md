@@ -37,6 +37,37 @@ BusBuddy is a mobile application designed to provide a convenient and efficient 
 - **Install Dependencies:** `flutter pub get`
 - **Run the App:** `flutter run`
 
+## Application demonstration
+### Profile based system
+![Profile Screenshot](src/1.jpg)
+
+### Profile based system
+![Profile Screenshot](src/1.jpg)
+
+### QR based ticket system
+![QR Screenshot](src/qr.jpg)
+
+### Automated Ticket scanning
+![Scan Screenshot](src/scan.jpg)
+
+### Ticket viewing and buying system
+![Ticket Screenshot](src/ticket.jpg)
+
+### Route Time Calendar
+![RT calendar Screenshot](src/routetimecalendar.jpg)
+
+### Trip Management
+![Trip Screenshot](src/starttrip.jpg)
+
+### Real Time Bus Tracking
+![Tracking Screenshot](src/tracking.jpg)
+
+### Feedback System
+![Feedback Screenshot](src/feedback.jpg)
+
+### Requisition System
+![Requisition Screenshot](src/requisition.jpg)
+
 ## Deployment Status
 We are excited to announce that BusBuddy is currently under deployment at Bangladesh University of Engineering and Technology (BUET). The application is being integrated into the campus transportation system, providing students, teachers, and staff with an enhanced bus travel experience.
 Stay tuned for updates as we finalize the rollout to ensure a smooth and efficient launch.
